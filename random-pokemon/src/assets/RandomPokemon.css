@@ -1,0 +1,20 @@
+.RandomPokemon {
+    border: solid 2px white;
+    padding: 2px;
+    width: 300px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.poke-number {
+    color: rgb(134, 134, 236);
+    font-size: 2rem;
+}
+
+.poke-image {
+    width: 150px;
+    aspect-ratio: 1 / 1;
+}
