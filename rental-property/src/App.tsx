@@ -13,7 +13,7 @@ const properties = [
 function App() {
 
   return (
-    <main  className='relative h-screen w-full flex justify-center items-center bg-slate-900'>
+    <main className='relative h-screen w-full flex justify-center items-center bg-slate-900'>
       <img src="logo.svg" alt="My logo" className='absolute top-2 left-2' />
       <PropertyList properties={properties} />
     </main>
