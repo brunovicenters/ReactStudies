@@ -1,14 +1,14 @@
 import { useState } from "react";
 
 const randomChoice = (arr: string[]) => {
-    return Math.floor(Math.random() * arr.length);
+    return arr[Math.floor(Math.random() * arr.length)];
 };
 
 export default function Box({ colors }: { colors: string[] }) {
-    const [color, setColor] = useState(colors[randomChoice(colors)]);
+    const [color, setColor] = useState(randomChoice(colors));
 
     const changeColor = () => {
-        const randomColor = colors[randomChoice(colors)];
+        const randomColor = randomChoice(colors);
         setColor(randomColor);
     };
 
