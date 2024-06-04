@@ -1,6 +1,6 @@
 import { useState } from "react";
 
-const emojiCollection: string[] = ['🤠', '🥳', '🥸', '😎'];
+const emojiCollection: string[] = ['🤠', '🥳', '🥸', '😎', '🤭', '🫢', '🫣', '🤫', '🤔', '🫡', '🤐', '🤨', '😐', '😑', '😶', '🫥', '😶‍🌫️'];
 
 export default function EmojiClicker() {
     const [emojis, setEmojis] = useState(['🤠']);
