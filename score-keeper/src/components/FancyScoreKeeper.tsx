@@ -23,7 +23,7 @@ export default function FancyScoreKeeper({qty = 2, target = 10}: {qty: number, t
         <div className="max-w-4xl mx-auto">
             <div className="relative text-center text-white font-bold mb-5 uppercase border-b border-slate-400 shadow-lg shadow-amber-400 hover:-translate-y-1 hover:shadow-amber-600">
                 <h1 className="text-3xl">Fancy Score Keeper</h1>
-                <button onClick={reset} className="absolute top-1 -right-10 uppercase p-1 rounded-lg text-slate-900 bg-red-300 shadow-red-300 hover:bg-red-400 shadow-lg hover:shadow-red-400">Reset</button>
+                <button onClick={reset} className="absolute top-1/2 -translate-y-1/2 right-0 uppercase p-1 rounded-lg text-white hover:text-red-400 shadow-lg">Reset</button>
             </div>
             <div className="w-full flex space-x-2 flex-wrap justify-center">
                 {playersScores.map((s, i) => {
