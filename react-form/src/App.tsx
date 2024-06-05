@@ -1,10 +1,10 @@
-import ShoppingListForm from "./component/ShoppingList/ShoppingListForm"
+import ShoppingList from "./component/ShoppingList/ShoppingList"
 
 function App() {
 
   return (
-    <main className='h-screen w-screen bg-slate-900 flex justify-center items-center'>
-      <ShoppingListForm />
+    <main className='h-screen w-screen bg-slate-900 flex flex-col space-y-4 justify-center items-center'>
+      <ShoppingList />
     </main>
   )
 }
