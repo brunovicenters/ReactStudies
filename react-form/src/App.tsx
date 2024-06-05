@@ -1,10 +1,10 @@
-import UsernameForm from "./component/UsernameForm"
+import LoginForm from "./component/LoginForm"
 
 function App() {
 
   return (
     <main className='h-screen w-screen bg-slate-900 flex justify-center items-center'>
-      <UsernameForm />
+      <LoginForm />
     </main>
   )
 }
